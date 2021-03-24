@@ -61,3 +61,13 @@ h1 {
     width: 14.556962%; /* 69px / 474px */
     margin-left: -17.0886076%; /* -81px / 474px */
 }
+.figure {
+    border: solid 2px rgb(51, 175, 163);
+    float: right;
+    margin-bottom: 0.5em; /* 237px / 474px */
+    margin-left: 2.53164557%; /* 12px / 474px */
+    width: 48.7341772%; /* 231 / 474px */
+}
+img {
+    max-width: 100%;
+}
