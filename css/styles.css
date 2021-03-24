@@ -40,3 +40,6 @@ h1 {
         width: 36.7777778%; /* 331px/900px */
         border: solid 2px tomato;
         }
+        .lede {
+            padding: 0.8em 5.333333%; /* 48px / 900px */
+            }
