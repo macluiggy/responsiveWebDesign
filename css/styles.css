@@ -20,3 +20,23 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     }
+    #page {
+        margin: 36px auto;
+        width: 90%;
+        border: solid 2px springgreen;
+        }
+        .blog {
+        margin: 0 auto 53px;
+        width: 93.75%; /* 900px / 960px */
+        border: solid 2px violet;
+        }
+        .blog .main {
+        float: left;
+        width: 62.8888889%; /* 566px/900px */
+        border: solid 2px yellow;
+        }
+        .blog .other {
+        float: right;
+        width: 36.7777778%; /* 331px/900px */
+        border: solid 2px tomato;
+        }
