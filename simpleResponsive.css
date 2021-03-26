@@ -1,0 +1,55 @@
+html {
+    width: 100%;
+}
+body {
+    width: 100%;
+    border: solid;
+}
+#container {
+    border: solid;
+    border-color: rgb(71, 22, 117);
+    width: 73.52941%; /* 1000px / 1360px */ 
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.box {
+    border: solid;
+    display: inline-block;
+}
+.uno {
+    width: 30%; /* 300px / 1000px */
+    border-color: rgb(179, 255, 0);
+}
+.dos {
+    width: 50%; /* 500px / 1000px */
+    border-color: brown;
+}
+.tres {
+    width: 90%; /* 900px / 1000px */
+}
+@media screen and (max-width: 575px) {
+    #container {
+        margin: 30px;
+        width: auto;
+    }
+    .box {
+        font-size: 90%;
+        color: burlywood;
+    }
+    .uno {
+        width: 100%;
+    }
+    .dos {
+        width: 50%; /* 500px / 1000px */
+        border-color: brown;
+        bottom: 100px;
+    }
+}
+#container2 {
+    border: solid springgreen;
+    width: 73.5%;
+    margin: 30px auto;
+    padding: 3%;
+}
+
